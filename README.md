@@ -22,20 +22,20 @@ The game is non-commercial project. Logo of the game is own-created picture, but
 Below there are several sample screenshots of the game.
 
 Screenshot 1.
-![screen1](/Pictures/screen1.jpg)
+![screen1](/Pictures/screen1.JPG)
 
 
 
 Screenshot 2.
-![screen2](/Pictures/screen2.jpg)
+![screen2](/Pictures/screen2.JPG)
 
 
 
 Screenshot 3.
-![screen3](/Pictures/screen3.jpg)
+![screen3](/Pictures/screen3.JPG)
 
 
 
 Screenshot 4.
-![screen4](/Pictures/screen4.jpg)
+![screen4](/Pictures/screen4.JPG)
 
