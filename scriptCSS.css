@@ -1,0 +1,230 @@
+header {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	color: #EEB462;
+	font-weight: bold;
+} 
+header > img {
+	width:80% ;
+}
+
+.optionsBoard {
+	margin: 0 10vw 5% 10vw;
+	padding: 5px 20px 5px 20px;
+	background-color: #CD7672;
+}
+.image {
+	margin:3px 5px 0px 5px;
+	width: 147px;
+}
+.TabOptions, .TabButtons {
+	border-collapse: collapse;	
+	border: 3px solid rgb(15, 31, 56); 
+	width: 100%;
+}
+.TabOptions th, .TabOptions tr, .TabButtons th {
+	border: 3px solid rgb(19, 38, 68);
+}
+.TabButtons {
+	width: 100%;
+}
+#TabResults {
+	width: 60%;
+	border-collapse: collapse;	
+	border: 7px solid rgb(15, 31, 56);	
+}
+#TabResults th {
+	padding: 10px 20px;
+}
+#TabResults th, #TabResults tr, #TabResults td {
+	border: 7px solid rgb(19, 38, 68);
+}
+.option {
+	display:inline-block;
+	margin-right: 50px;
+}
+#optBoard, #optTime, #resultTitle {
+	background-color: #685881;	
+}
+#rightResult {
+	background-color: #138086;
+}
+#missedResult {
+	background-color: #DC8665;
+}
+#wrongResult {
+	background-color: #812e2e;
+}
+#roundInfo, #roundResult {
+	background-color: #EEB462;
+}
+#timeResult {
+	background-color: #CD7672;
+}
+.colorButton {
+	width: 180px;
+	height: 100%;
+	margin:auto;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+    display:block;
+}
+#playButton, #restart, #restart2, #end {
+	width:100%;
+	font-size: 20px;
+	padding: 5px;
+}
+button:hover {
+	opacity: 1.0;
+	background-position: right center; /* change the direction of the change here */
+	cursor: pointer;
+}	
+#playButton {
+	background-image: linear-gradient(to right, #138086 0%, #534666 51%, #138086 100%);
+}
+#restart, #restart2 {
+	background-image: linear-gradient(to right, #CD7672 0%, #EEB462 51%, #CD7672 100%);
+}
+#restart2, #startButton {
+	background-image: linear-gradient(to right, #138086 0%, #EEB462 51%, #138086 100%);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+#startButton {
+	font-size: 30px;
+	width: 230px;
+}
+#end {
+	background-image: linear-gradient(to right, #DC8665 0%, #534666 51%, #DC8665 100%);
+}
+.tableNumbers {
+	margin: 0;
+	padding: 0;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+}
+.textResult {
+	color: white; 
+	font-size: 20px;
+	text-align: left;
+}
+#titleGame {
+	width:100% ;
+}
+#resultTitle {
+	text-align: center;
+	font-size: 25px;
+	padding: 15px;
+	font-weight: bold;
+}
+
+/*  Game Board's Elements  */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#boardGame {
+	background-color: #CD7672;
+}
+/* Element with changing text (that before button 'Play') */
+#containerIntro {
+	color:#999;
+	text-transform: uppercase;
+	font-size:36px;
+	font-weight:bold;
+	padding-top:50px;  			
+	width:100%;
+	bottom:45%;
+	display:block;
+	text-align:center;
+	margin-bottom: 40px;
+}
+#flip {
+	height:50px;
+	overflow:hidden;
+}
+#flip > div > div {
+	color:#fff;
+	padding:4px 12px;
+	height:45px;
+	margin-bottom:45px;
+	display:inline-block;
+}
+#flip div:first-child {
+	animation: show 5s linear infinite;
+}
+#flip div div {		
+	background:#138086;
+}
+#flip div:first-child div {
+	background:#EEB462;
+}
+#flip div:last-child div {
+	background:#CD7672;
+}
+@keyframes show {
+	0% {margin-top:-270px;}
+	5% {margin-top:-180px;}
+	33% {margin-top:-180px;}
+	38% {margin-top:-90px;}
+	66% {margin-top:-90px;}
+	71% {margin-top:0px;}
+	99.99% {margin-top:0px;}
+	100% {margin-top:-270px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

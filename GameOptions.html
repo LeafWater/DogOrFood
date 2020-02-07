@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl" style="background-image: url('Pictures/pattern3.jpg');">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dog or Food</title>
+        <link rel="Stylesheet" href="scriptCSS.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="scriptGame.js"></script>
+		<script src="https://unpkg.com/scrollreveal@4"></script>
+    </head>
+	
+    <body>
+		<header>
+			<img src="Pictures/background2.jpg">
+		</header>
+		
+		<section class="optionsBoard">
+			<table class="TabOptions">
+				<tr>
+					<th id="optBoard" style="width: 30%;">PLANSZA: 
+						<input id="size2x3" type="radio" name="size" value="2x3"> 2x3
+						<input id="size3x4" type="radio" name="size" value="3x4"> 3x4
+					</th>
+					<th id="optTime" style="width: 30%;">CZAS: 
+						<input id="time1" type="radio" name="time" value="3"> 3s
+						<input id="time2" type="radio" name="time" value="5"> 5s
+						<input id="time3" type="radio" name="time" value="7"> 7s
+					</th>
+					<th colspan="2"><button id="playButton" class="colorButton">Graj</button></th>
+				</tr>
+				<tr>
+					<th id="rightResult"><p id="rightResultText" class="tableNumbers">0</p>DOBRZE</th>
+					<th id="missedResult"><p id="missedResultText" class="tableNumbers">0</p>OPUSZCZONE</th>
+					<th id="wrongResult" style="width: 25%;"><p id="wrongResultText" class="tableNumbers">0</p>ŹLE</th>
+					<th id="roundInfo"><p id="roundInfoText" class="tableNumbers">0/25</p>RUNDA</th>
+				</tr>
+			</table>
+
+			<div class="container">
+				<div id="boardGame">
+					
+				</div>
+			</div>
+			
+			<table class="TabButtons">
+				<tr>
+					<th style="width: 50%;"><button id="restart" class="colorButton" onclick="restart()">Restart</button></th>
+					<th><button id="end" class="colorButton" onclick='showResultBoard()'>Zakończ</button></th>
+				</tr>
+			</table>
+		</section>
+		
+		<footer>
+			<p> Autor: Marta Kleczko</p>
+		</footer>
+	</body>
+</html>
+
